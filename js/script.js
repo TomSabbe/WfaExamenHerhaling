@@ -53,7 +53,7 @@ function VulSelect(games) {
         op.value = plat;
         slcplatformKeuze.appendChild(op);
     }
-    slcplatformKeuze.selectedIndex= 1;
+    slcplatformKeuze.selectedIndex= 0;
     ToonGekozenPlatformImg();
 }
 
@@ -79,8 +79,6 @@ function ToonGekozenPlatformImg() {
 function ToonDetails(game) {
     ResetDetail();
 
-    console.log(game);
-
     let form = document.createElement("form");
     form.className = "form";
 
@@ -97,13 +95,14 @@ function ToonDetails(game) {
     let beschrijving = document.createElement("p");
     beschrijving.innerHTML = game.Description;
     //detail foto's
-    /*
+    
     game.DetailImages.forEach(foto => {
+        console.log(foto);
         let imgdetail = document.createElement("img");
-        imgdetail.src = foto.imgmerk;
+        imgdetail.src = foto;
         imgdetail.className = "imgMerkDetail";
-   
-*/
+    });
+
     
     details.appendChild(form);
 
@@ -111,7 +110,7 @@ function ToonDetails(game) {
     details.appendChild(type);
     details.appendChild(price);
     details.appendChild(beschrijving);
-    //details.appendChild(DetailImages);
+    details.appendChild(DetailImages);
 }
 
 
