@@ -11,20 +11,21 @@ var secDetails, secBestelling;
 var platfrom;
 
 function Initieer() {
+    //koppel elementen
     KoppelDomElementen();
-    VoegEventListenersToe()
+    //event listners
+    VoegEventListenersToe();
 
     // Functieuitvoer bij start
-   
     Start();
 
 
 }
 
 function Start() {
-    console.log(`debuggen kijken wat erin zit : ${games}`);
-    fetch();
-    ToonPlatforms();
+    console.log(`testing area`);
+    OnlineFetch();
+    
 }
 
 // Functies aanroepen 
@@ -41,16 +42,12 @@ function VoegEventListenersToe() {
     
 }
 
-function fetch() {
+function OnlineFetch() {
           //Fetch online
           fetch('https://tomsabbe.github.io/WfaExamenHerhaling/api/games.json')
           .then(function (resp) { return resp.json(); })
           .then(function (arr) {
-            console.log("werk de fetch :" + arr);
-
-            platfrom = arr.PS4;
-            //createCardsSuper(platfrom);
-            console.log("werk de fetch :" + platfrom);
+            ToonPlatforms(arr);
 
           });
 }
@@ -65,7 +62,6 @@ function ToonPlatforms() {
     }
 
     ToonGekozenPlatform();
-    console.writeLine()
 }
 
 
