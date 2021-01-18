@@ -91,7 +91,7 @@ function ToonDetails(game) {
     type.innerHTML = game.Type;
     //prijs
     let price = document.createElement("p");
-    price.innerHTML = game.Price;
+    price.innerHTML = `${game.Price} $`;
     //beschrijving
     let beschrijving = document.createElement("p");
     beschrijving.innerHTML = game.Description;
@@ -107,9 +107,9 @@ function ToonDetails(game) {
 */
     //koop knop
     let buy = document.createElement("btn");
-    buy.innerHTML = "Koop me";
+    buy.innerHTML = "Winkel Karretje";
     buy.className = "btnBuy";
-    buy.onclick= function() {BuyMe(game);};
+    buy.onclick= function() {Bestelling(game);};
 
 
     details.appendChild(form);
@@ -123,8 +123,16 @@ function ToonDetails(game) {
     details.appendChild(buy);
 }
 
-function BuyMe(tobuy) {
+function Bestelling(tobuy) {
     console.log(tobuy);
+    //img klein
+
+    //details titel
+    
+    //table ofzo toondetails game met koop me
+
+
+
 }
 
 function ResetFields() {
