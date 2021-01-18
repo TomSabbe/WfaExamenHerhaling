@@ -62,20 +62,23 @@ function ToonGekozenPlatformImg() {
     titelPlatform.innerHTML = index;
 
     ChoiceGamePlatform.forEach(picture => {
+       
         let imgGame = document.createElement("img");
         imgGame.src = picture.Image;
-        img.setAttribute('onclick','ToonDetails(this)');
         imgGame.className = "imgGame";
-       
+        //imgGame.setAttribute('onclick','ToonDetails();');
+        //or
+        imgGame.onclick= function() {ToonDetails(picture.Name);};
        
         divafbeeldingenGamesVoorPlatforms.appendChild(imgGame);
+
+       
+
     });
- //imgGame.setAttribute('onclick', ToonDetails);
-        //imgGame.addEventListener("change", function () { ToonDetails(picture.name); }, false);
 }
 
-function ToonDetails(img) {
-    console.log("click");
+function ToonDetails(game) {
+    console.log(game);
     //img.style.border ='5px solid pink';
 }
 
