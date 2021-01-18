@@ -5,7 +5,7 @@
         "Price": 69.99,
         "Type": "Action",
         "Description": "Nadat hij wraak heeft genomen op de goden van Olympus, trekt Kratos naar het universum van de noordse goden en monsters.",
-        "Image": "gow.jpg",
+        "Image": "img/gow.jpg",
         "DetailImages": [
           "gow1.jpg",
           "gow2.jpg"
@@ -62,7 +62,7 @@
         "Price": 79.99,
         "Type": "Adventure",
         "Description": "Sea of Thieves is een nieuw type  multiplayer game die je alles geeft wat je nodig hebt om te leven als een piraat. Ofwel een avontuur als een groep, of eenzame vaarder zul je andere mensen ontmoeten... zijn ze vriend of vijand en hoe zul jij dit behandelen ... ",
-        "Image": "sot.jpg",
+        "Image": "img/sot.jpg",
         "DetailImages": [
           "sot1.jpg",
           "sot2.jpg"
@@ -73,7 +73,7 @@
         "Price": 49.99,
         "Type": "Shooter",
         "Description": "De laatste vrije stad van de mensen is gevallen. De brute commandant van het Red Legion, Ghaul, heeft een overweldigende legermacht naar de overwinning gevoerd en de Guardians van de stad van hun macht beroofd.",
-        "Image": "destiny.jpg",
+        "Image": "img/destiny.jpg",
         "DetailImages": [
           "destiny1.jpg",
           "destiny2.jpg"
@@ -84,7 +84,7 @@
         "Price": 69.99,
         "Type": "Adventure",
         "Description": "Gevangen achter de vijandelijke linies van een secte.Wanneer het Project bij Eden's Gate — een bende fanatieke sekteleden die vastbesloten is om zielen te redden, of mensen dat nu willen of niet — hun bolwerk in Hope County, Montana in rap tempo versterkt, hebben de in het nauw gedreven bewoners twee keuzes: de redding van de sekte accepteren of in de tegenaanval gaan. ",
-        "Image": "fcx.jpg",
+        "Image": "img/fcx.jpg",
         "DetailImages": [
           "fc1.jpg",
           "fc2.jpg",
@@ -109,7 +109,7 @@
         "Price": 39.99,
         "Type": "Soft Skills",
         "Description": "Het doel van het spel is om een puppy zo goed mogelijk af te richten waardoor hij op hondenshows zo goed mogelijk kan presteren. Daarmee kan een speler geld verdienen en daarvan dingen gaan kopen, zoals verzorgspullen voor de puppy. Men kan tot maximaal drie puppy's in huis hebben en kan daarnaast ook nog vijf honden bij het Dog Hotel (hondenhotel)laten verzorgen. Door naar het hondenhotel toe te gaan, kunnen honden ernaartoe worden gebracht en kunnen er honden uit worden gehaald. De puppy blijft klein en groeit dus niet. In totaal kan een speler dus acht honden hebben per spel. Daarnaast is het de bedoeling dat de honden zo goed mogelijk presteren op de Frisbee-gooi-wedstrijden en de behendigheidswedstrijden. De speler bestuurt niet de puppy zelf, maar is het baasje van de pup.",
-        "Image": "dogs.jpg",
+        "Image": "img/dogs.jpg",
         "DetailImages": "dogs2.jpg"
       }
     ]
