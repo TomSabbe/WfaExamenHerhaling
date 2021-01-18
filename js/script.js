@@ -110,7 +110,7 @@ function ToonDetails(game) {
     details.appendChild(type);
     details.appendChild(price);
     details.appendChild(beschrijving);
-    details.appendChild(DetailImages);
+    details.appendChild(imgdetail);
 }
 
 

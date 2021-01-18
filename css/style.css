@@ -85,3 +85,9 @@ select {
   width: 10% !important;
   border-radius: 50px;
 }
+
+.imgMerkDetail{
+  height: 5% !important;
+  width: 5% !important;
+  border-radius: 10px;
+}
