@@ -11,6 +11,7 @@ var details;
 //global vars
 var gamesCollection;
 var ChoiceGamePlatform;
+var imgdetail;
 
 function Initieer() {
     KoppelDomElementen();
@@ -98,7 +99,7 @@ function ToonDetails(game) {
     
     game.DetailImages.forEach(foto => {
         console.log(foto);
-        let imgdetail = document.createElement("img");
+        imgdetail = document.createElement("img");
         imgdetail.src = foto;
         imgdetail.className = "imgMerkDetail";
     });
