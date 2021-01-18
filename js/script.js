@@ -104,7 +104,12 @@ function ToonDetails(game) {
         imgdetail.className = "imgMerkDetail";
     });
 
-    
+    //koop knop
+    let buy = document.createElement("btn");
+    buy.innerHTML = "Koop me";
+    buy.className = "btnBuy";
+
+
     details.appendChild(form);
 
     details.appendChild(name);
