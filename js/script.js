@@ -12,7 +12,6 @@ var gamesCollection;
 var ChoiceGamePlatform;
 
 function Initieer() {
-    //console.log(`testing area`);
     KoppelDomElementen();
     VoegEventListenersToe();
     FetchData();
@@ -51,7 +50,6 @@ function VulSelect(games) {
         op.textContent = plat;
         op.value = plat;
         slcplatformKeuze.appendChild(op);
-        console.log(plat);
     }
     slcplatformKeuze.selectedIndex= 1;
     ToonGekozenPlatformImg();
@@ -66,16 +64,19 @@ function ToonGekozenPlatformImg() {
     ChoiceGamePlatform.forEach(picture => {
         let imgGame = document.createElement("img");
         imgGame.src = picture.Image;
+        img.setAttribute('onclick','ToonDetails(this)');
         imgGame.className = "imgGame";
-        imgGame.setAttribute('onclick', ToonDetails);
+       
        
         divafbeeldingenGamesVoorPlatforms.appendChild(imgGame);
     });
-
+ //imgGame.setAttribute('onclick', ToonDetails);
+        //imgGame.addEventListener("change", function () { ToonDetails(picture.name); }, false);
 }
 
-function ToonDetails() {
-    console.log("clickedd");
+function ToonDetails(img) {
+    console.log("click");
+    //img.style.border ='5px solid pink';
 }
 
 
