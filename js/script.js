@@ -97,17 +97,19 @@ function ToonDetails(game) {
     beschrijving.innerHTML = game.Description;
     //detail foto's
     
+    /*
     game.DetailImages.forEach(foto => {
         console.log(foto);
         imgdetail = document.createElement("img");
         imgdetail.src = foto;
         imgdetail.className = "imgMerkDetail";
     });
-
+*/
     //koop knop
     let buy = document.createElement("btn");
     buy.innerHTML = "Koop me";
     buy.className = "btnBuy";
+    buy.onclick= function() {BuyMe(game);};
 
 
     details.appendChild(form);
@@ -116,13 +118,14 @@ function ToonDetails(game) {
     details.appendChild(type);
     details.appendChild(price);
     details.appendChild(beschrijving);
-    details.appendChild(imgdetail);
+    //details.appendChild(imgdetail);
+
+    details.appendChild(buy);
 }
 
-
-
-
-
+function BuyMe(tobuy) {
+    console.log(tobuy);
+}
 
 function ResetFields() {
     divafbeeldingenGamesVoorPlatforms.innerHTML = "";
