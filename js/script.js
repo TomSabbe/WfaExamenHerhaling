@@ -58,6 +58,7 @@ function VulSelect(games) {
 }
 
 function ToonGekozenPlatformImg() {
+    ResetFields();
     let index = slcplatformKeuze.value;
     ChoiceGamePlatform = gamesCollection[index];
     titelPlatform.innerHTML = index;
@@ -66,10 +67,15 @@ function ToonGekozenPlatformImg() {
         let imgGame = document.createElement("img");
         imgGame.src = picture.Image;
         imgGame.className = "imgGame";
-        console.log(imgGame);
+        imgGame.setAttribute('onclick', ToonDetails);
+       
         divafbeeldingenGamesVoorPlatforms.appendChild(imgGame);
     });
 
+}
+
+function ToonDetails() {
+    console.log("clickedd");
 }
 
 
@@ -77,9 +83,6 @@ function ToonGekozenPlatformImg() {
 
 
 
-
-
 function ResetFields() {
-    divafbeeldingenGamesVoorPlatforms.innerHTML = "-";
-    txtBirthYear.value = "";
+    divafbeeldingenGamesVoorPlatforms.innerHTML = "";
 }

@@ -79,3 +79,9 @@ select {
   width: 2000px;
   color: red;
 }
+
+.ImgGame{
+  height: 20% !important;
+  width: 20% !important;
+  border-radius: 15px;
+}

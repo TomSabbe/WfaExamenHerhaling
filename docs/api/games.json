@@ -16,7 +16,7 @@
         "Price": 59.99,
         "Type": "Adventure",
         "Description": "Ga op expeditie en verken een pas ontdekt, levensgevaarlijk continent dat bekendstaat als 'De Nieuwe Wereld'. Jaag in de onbekende wildernis van Monster Hunter: World op de meest afschrikwekkende beesten.",
-        "Image": "mh.jpg",
+        "Image": "img/mh.jpg",
         "DetailImages": [
           "mh1.jpg",
           "mh2.jpg"
@@ -27,7 +27,7 @@
         "Price": 73.99,
         "Type": "Adventure",
         "Description": "Maak kennis met drie heel verschillende criminelen, Michael, Franklin en Trevor, en maak mee hoe ze alles riskeren in een reeks gedurfde en gevaarlijke overvallen die hen schatrijk kunnen maken.",
-        "Image": "gta.jpg",
+        "Image": "img/gta.jpg",
         "DetailImages": [
           "gtav.jpg",
           "gtav2.jpg"
@@ -38,7 +38,7 @@
         "Price": 29.99,
         "Type": "Adventure",
         "Description": "In Minecraft: PlayStation 4 Edition begint het avontuur met je eigen verbeelding. Je kunt blokken breken, plaatsen en ermee doen wat je wilt. Probeer een zo diep mogelijk gat te graven of maak een schuilplaats om 's nachts in te schuilen voor de verschrikkelijke monsters. Van stenen hut tot kasteel, van eenvoudig idee tot super-ambitieus plan; jij bepaalt hoe het spel wordt gespeeld.",
-        "Image": "mc.jpg",
+        "Image": "img/mc.jpg",
         "DetailImages": [
           "mc1.jpg",
           "mc2.jpg"
@@ -49,7 +49,7 @@
         "Price": 79.99,
         "Type": "Shooter",
         "Description": "Keer terug naar de dodelijkste oorlog van de 20e eeuw en ervaar de dramatische achtergrond die de inspiratie vormde voor de immens populaire Call of Duty-serie, nu opnieuw vormgegeven voor een nieuwe generatie gamers.",
-        "Image": "cod.jpg",
+        "Image": "img/cod.jpg",
         "DetailImages": [
           "cod1.jpg",
           "cod2.jpg"
@@ -98,7 +98,7 @@
         "Price": 39.99,
         "Type": "Action",
         "Description": " Bouwen als Batman! Speel volgens je eigen regels met de coole voertuigen, gebouwen, personages en wapens uit DE LEGO® BATMAN FILM. De Joker™, Catwoman™, de Penguin™ en andere gekke schurken maken Gotham City onveilig. Help Batman die boeven achter de tralies te krijgen. Speel je favoriete scènes uit de film na of bedenk je eigen duels!",
-        "Image": "bat.jpg",
+        "Image": "img/bat.jpg",
         "DetailImages": [
           "bat1.jpg",
           "bat2.jpg"
