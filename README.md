@@ -1,3 +1,5 @@
+https://tomsabbe.github.io/WfaExamenHerhaling/api/games.json
+
 # Eindevaluatie Web Frontend Advanced
 Dit examen maakt 100% uit van de evaluatie van de module Web Frontend Advanced.   
 Lees aandachtig de opgave bij de start van het examen.
