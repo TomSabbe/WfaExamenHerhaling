@@ -77,8 +77,8 @@ function ToonGekozenPlatformImg() {
 }
 
 function ToonDetails(game) {
-    ResetFields();
-    
+    ResetDetail();
+
     console.log(game);
 
     let form = document.createElement("form");
@@ -121,5 +121,8 @@ function ToonDetails(game) {
 
 function ResetFields() {
     divafbeeldingenGamesVoorPlatforms.innerHTML = "";
+}
+
+function ResetDetail() {
     details.innerHTML = "";
 }
